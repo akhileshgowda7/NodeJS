@@ -1,66 +1,5 @@
-// import fetch from "node-fetch";
-// const githubData = {
-//   username: "akhileshgowda7",
-//   token: "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",
-// };
-
-// const queryQL = {
-//   query: `
-//   query {
-// 	  user(login: "${githubData.username}"){
-// 	    pullRequests(last: 100, orderBy: {field: CREATED_AT, direction: DESC}){
-//       totalCount
-//       nodes{
-//         id
-//         title
-//         url
-//         state
-// 	      mergedBy {
-// 	          avatarUrl
-// 	          url
-// 	          login
-// 	      }
-// 	      createdAt
-// 	      number
-//         changedFiles
-// 	      additions
-// 	      deletions
-//         baseRepository {
-// 	          name
-// 	          url
-// 	          owner {
-// 	            avatarUrl
-// 	            login
-// 	            url
-// 	          }
-// 	        }
-//       }
-//     }
-// 	}
-// }`,
-// };
-
-// const baseUrl = "https://api.github.com/graphql";
-
-// const headers = {
-//   "content-type": "application/json",
-//   Authentication: "bearer" + githubData["token"],
-// };
-
-// fetch(baseUrl, {
-//   method: "POST",
-//   headers: headers,
-//   body: JSON.stringify(queryQL),
-// })
-//   .then((response) => {
-//     console.log(JSON.stringify(response));
-//   })
-//   .catch((err) => {
-//     console.log(JSON.stringify(err));
-//   });
-
 const githubData = {
-  githubConvertedToken: "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",
+  githubToken: "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",
   githubUserName: "akhileshgowda7",
 };
 
@@ -69,60 +8,132 @@ import { writeFile } from "fs";
 
 import json2md from "json2md";
 
-const query_pull_requests = {
-  query: `
-	query { 
-    organization(login: "cns-iu") {
-      id
-      repository(name: "scimaps") {
-        id
-        description
-        pull: pullRequests(states: CLOSED, first: 100) {
-          totalCount
-          nodes {
-            closedAt
-            number
+const query_pullrequests = {
+  query: `query{
+		user(login: "${githubData.githubUserName}") {
+      organization(login: "cns-iu") {
+        repository(name: "macroscope-kiosk") {
+          pullRequests(first: 100) {
+            nodes {
+              closedAt
+              createdAt
+            
+            }
+            totalCount
           }
         }
       }
-    }
   }
-	`,
+	}`,
+};
+
+const query_issues = {
+  query: `query{
+		user(login: "${githubData.githubUserName}") {
+      organization(login: "cns-iu") {
+        repository(name: "macroscope-kiosk") {
+          name
+          assignableUsers {
+            totalCount
+          }
+          commitComments(first: 10) {
+            totalCount
+          }
+          Issuesopen: issues(states: OPEN) {
+            totalCount
+          }
+          Issuesclosed: issues(states: CLOSED) {
+            totalCount
+          }
+        }
+      }
+  }
+	}`,
 };
 
 const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
   "Content-Type": "application/json",
-  Authorization: "bearer " + githubData.githubConvertedToken,
+  Authorization: "bearer " + githubData.githubToken,
 };
+
+//Getting repository data
+
+// fetch(baseUrl, {
+//   method: "POST",
+//   headers: headers,
+//   body: JSON.stringify(query_issue),
+// })
+//   .then((response) => response.text())
+//   .then((txt) => {
+//     const data = JSON.parse(txt);
+//     console.log(data.data.user.organization);
+//     const repository = data.data.user.organization.repository;
+//     const repositoryName = repository.name;
+//     delete repository.name;
+//     const repositoryArray = [];
+//     const repositoryObject = {};
+
+//     for (const key in repository) {
+//       const valueObject = repository[key];
+//       const value = valueObject.totalCount;
+//       repositoryObject[key] = value;
+//     }
+//     repositoryArray.push({ name: repositoryName, ...repositoryObject });
+//     console.log(repositoryArray);
+
+//     const csvString = convertJsonToCsvString(repositoryArray);
+//     console.log(csvString);
+//     writeFile("Repositorydata.csv", csvString, (err) => {
+//       console.log(err);
+//     });
+
+//     const mdString = JSONTOmdString(repositoryName, repositoryObject);
+//     console.log(mdString);
+//     writeFile("Repositorydata.md", mdString, (err) => {
+//       console.log(err);
+//     });
+//   })
+//   .catch((error) => console.log(error));
+
+//Getting Pull requests data
 
 fetch(baseUrl, {
   method: "POST",
   headers: headers,
-  body: JSON.stringify(query_pull_requests),
+  body: JSON.stringify(query_pullrequests),
 })
   .then((response) => response.text())
   .then((txt) => {
     const data = JSON.parse(txt);
-    console.log(data);
-    console.log(data.data.organization.repository.pull.nodes);
-    // const csvString = convertJsonToCsvString(
-    //   data.data.organization.repository.pull.nodes
-    // );
-    // console.log(csvString);
-    // writeFile("data.csv", csvString, (err) => {
-    //   console.log(err);
-    // });
-    const mdString = JSONTOmdString(data.data.organization.repository);
+    // console.log(data.data.user.organization);
+    const pullReqData =
+      data.data.user.organization.repository.pullRequests.nodes;
+    const pullReqDataUpdated = [];
+    pullReqData.forEach((data, index) => {
+      const createdAt = data.createdAt;
+      const closedAt = data.closedAt;
+      const diffInDays = getDateDiff(createdAt, closedAt);
+      pullReqDataUpdated.push({
+        ...data,
+        diffInDays: diffInDays,
+      });
+    });
+    console.log(pullReqDataUpdated);
+    const csvString = convertJsonToCsvString(pullReqDataUpdated);
+    console.log(csvString);
+    writeFile("pullRequestsdata.csv", csvString, (err) => {
+      console.log(err);
+    });
+
+    const mdString = JSONTOmdStringPullData(pullReqDataUpdated);
     console.log(mdString);
-    writeFile("data.md", mdString, (err) => {
+    writeFile("pullRequestsdata.md", mdString, (err) => {
       console.log(err);
     });
   })
-  .catch((error) =>
-    console.log("Error occured in pinned projects 2", JSON.stringify(error))
-  );
+  .catch((error) => console.log(error));
 
 function convertJsonToCsvString(data) {
   const keys = Object.keys(data[0]);
@@ -133,16 +144,50 @@ function convertJsonToCsvString(data) {
   return commaSeparatedString;
 }
 
-function JSONTOmdString(data) {
+function JSONTOmdStringRepoData(repoName, repoDataObject) {
   return json2md([
-    { h1: data.description },
-    { blockquote: data.id },
+    { h1: repoName },
 
-    { h2: "Pull" },
+    { h2: "Repository data" },
     {
-      ul: data.pull.nodes.map(
-        (item) => `ClosedAt: ${item.closedAt} <br> Number: ${item.number}`
+      ul: Object.keys(repoDataObject).map(
+        (key) => `${key} -  <strong>${repoDataObject[key]}</strong>`
       ),
+    },
+  ]);
+}
+
+function getDateDiff(date1, date2) {
+  const d1 = new Date(date1);
+  const d2 = new Date(date2);
+  const t1 = d1.getTime();
+  const t2 = d2.getTime();
+  const diff = t2 - t1;
+  const diffInSec = diff / 1000;
+  const diffInMin = diffInSec / 60;
+  const diffInHours = diffInMin / 60;
+  if (diffInHours < 1) return `${Math.floor(diffInMin)} mins`;
+  const diffInDays = diffInHours / 24;
+  const diffInMonths = diffInDays / 24;
+  if (diffInDays < 1) return `${Math.floor(diffInHours)} hours`;
+  if (diffInMonths < 1)
+    return Math.floor(diffInDays) == 1
+      ? `${Math.floor(diffInDays)} day`
+      : `${Math.floor(diffInDays)} days`;
+  return Math.floor(diffInMonths) == 1
+    ? `${Math.floor(diffInMonths)} month`
+    : `${Math.floor(diffInMonths)} months`;
+}
+
+function JSONTOmdStringPullData(data) {
+  return json2md([
+    { h1: "Pull Request Data " },
+
+    {
+      table: {
+        headers: Object.keys(data[0]),
+        rows: data,
+      },
     },
   ]);
 }
