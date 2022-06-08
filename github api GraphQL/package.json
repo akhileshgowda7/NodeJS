@@ -1,0 +1,16 @@
+{
+  "name": "github-api-graphql",
+  "version": "1.0.0",
+  "main": "github_graphql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json2md": "^1.12.0",
+    "node-fetch": "^3.2.5"
+  },
+  "description": "",
+  "type": "module"
+}
