@@ -1,0 +1,240 @@
+{
+  "ccf": [
+    {
+      "openIssue": 101,
+      "closedIssue": 293,
+      "openPullreq": 7,
+      "closedPullreq": 106,
+      "mergedPullreq": 420,
+      "name": "ccf-ui"
+    },
+    {
+      "openIssue": 0,
+      "closedIssue": 0,
+      "openPullreq": 1,
+      "closedPullreq": 2,
+      "mergedPullreq": 23,
+      "name": "ccf-releases"
+    },
+    {
+      "openIssue": 7,
+      "closedIssue": 2,
+      "openPullreq": 2,
+      "closedPullreq": 0,
+      "mergedPullreq": 11,
+      "name": "ccf"
+    }
+  ],
+  "uwsgi": [
+    {
+      "openIssue": 14,
+      "closedIssue": 35,
+      "openPullreq": 1,
+      "closedPullreq": 8,
+      "mergedPullreq": 162,
+      "name": "gateway"
+    }
+  ],
+  "fair": [
+    {
+      "openIssue": 37,
+      "closedIssue": 416,
+      "openPullreq": 8,
+      "closedPullreq": 180,
+      "mergedPullreq": 483,
+      "name": "ingest-validation-tools"
+    }
+  ],
+  "standards": [
+    {
+      "openIssue": 37,
+      "closedIssue": 416,
+      "openPullreq": 8,
+      "closedPullreq": 180,
+      "mergedPullreq": 483,
+      "name": "ingest-validation-tools"
+    }
+  ],
+  "nginx": [
+    {
+      "openIssue": 14,
+      "closedIssue": 35,
+      "openPullreq": 1,
+      "closedPullreq": 8,
+      "mergedPullreq": 162,
+      "name": "gateway"
+    }
+  ],
+  "docker": [
+    {
+      "openIssue": 14,
+      "closedIssue": 35,
+      "openPullreq": 1,
+      "closedPullreq": 8,
+      "mergedPullreq": 162,
+      "name": "gateway"
+    }
+  ],
+  "python3": [
+    {
+      "openIssue": 14,
+      "closedIssue": 35,
+      "openPullreq": 1,
+      "closedPullreq": 8,
+      "mergedPullreq": 162,
+      "name": "gateway"
+    }
+  ],
+  "docker-compose": [
+    {
+      "openIssue": 14,
+      "closedIssue": 35,
+      "openPullreq": 1,
+      "closedPullreq": 8,
+      "mergedPullreq": 162,
+      "name": "gateway"
+    }
+  ],
+  "flask": [
+    {
+      "openIssue": 14,
+      "closedIssue": 35,
+      "openPullreq": 1,
+      "closedPullreq": 8,
+      "mergedPullreq": 162,
+      "name": "gateway"
+    }
+  ],
+  "portal": [
+    {
+      "openIssue": 0,
+      "closedIssue": 20,
+      "openPullreq": 0,
+      "closedPullreq": 1,
+      "mergedPullreq": 34,
+      "name": "portal-docs"
+    }
+  ],
+  "schema": [
+    {
+      "openIssue": 37,
+      "closedIssue": 416,
+      "openPullreq": 8,
+      "closedPullreq": 180,
+      "mergedPullreq": 483,
+      "name": "ingest-validation-tools"
+    }
+  ],
+  "visualization": [
+    {
+      "openIssue": 12,
+      "closedIssue": 9,
+      "openPullreq": 0,
+      "closedPullreq": 2,
+      "mergedPullreq": 36,
+      "name": "portal-visualization"
+    }
+  ],
+  "user-interface": [
+    {
+      "openIssue": 172,
+      "closedIssue": 1171,
+      "openPullreq": 13,
+      "closedPullreq": 125,
+      "mergedPullreq": 1195,
+      "name": "portal-ui"
+    },
+    {
+      "openIssue": 0,
+      "closedIssue": 20,
+      "openPullreq": 0,
+      "closedPullreq": 1,
+      "mergedPullreq": 34,
+      "name": "portal-docs"
+    }
+  ],
+  "hubmap": [
+    {
+      "openIssue": 172,
+      "closedIssue": 1171,
+      "openPullreq": 13,
+      "closedPullreq": 125,
+      "mergedPullreq": 1195,
+      "name": "portal-ui"
+    },
+    {
+      "openIssue": 37,
+      "closedIssue": 416,
+      "openPullreq": 8,
+      "closedPullreq": 180,
+      "mergedPullreq": 483,
+      "name": "ingest-validation-tools"
+    }
+  ],
+  "gehlenborglab": [
+    {
+      "openIssue": 172,
+      "closedIssue": 1171,
+      "openPullreq": 13,
+      "closedPullreq": 125,
+      "mergedPullreq": 1195,
+      "name": "portal-ui"
+    },
+    {
+      "openIssue": 2,
+      "closedIssue": 11,
+      "openPullreq": 0,
+      "closedPullreq": 0,
+      "mergedPullreq": 13,
+      "name": "tableschema-to-template"
+    },
+    {
+      "openIssue": 37,
+      "closedIssue": 416,
+      "openPullreq": 8,
+      "closedPullreq": 180,
+      "mergedPullreq": 483,
+      "name": "ingest-validation-tools"
+    },
+    {
+      "openIssue": 0,
+      "closedIssue": 20,
+      "openPullreq": 0,
+      "closedPullreq": 1,
+      "mergedPullreq": 34,
+      "name": "portal-docs"
+    },
+    {
+      "openIssue": 13,
+      "closedIssue": 22,
+      "openPullreq": 2,
+      "closedPullreq": 2,
+      "mergedPullreq": 36,
+      "name": "hubmap-api-py-client"
+    },
+    {
+      "openIssue": 20,
+      "closedIssue": 8,
+      "openPullreq": 17,
+      "closedPullreq": 7,
+      "mergedPullreq": 51,
+      "name": "portal-containers"
+    },
+    {
+      "openIssue": 1,
+      "closedIssue": 1,
+      "openPullreq": 4,
+      "closedPullreq": 0,
+      "mergedPullreq": 8,
+      "name": "hubmap-api-js-client"
+    },
+    {
+      "openIssue": 12,
+      "closedIssue": 9,
+      "openPullreq": 0,
+      "closedPullreq": 2,
+      "mergedPullreq": 36,
+      "name": "portal-visualization"
+    }
+  ]
+}

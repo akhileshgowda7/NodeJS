@@ -1,0 +1,434 @@
+{
+  "ccf-3d-reference-object-library": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "py-hubmapbags-docs": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-rdf-writer": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-tissue-block-annotation": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hubmap-template": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hubmap-ontology": [
+    { "name": "issuesOpen", "count": 9 },
+    { "name": "issuesClosed", "count": 13 }
+  ],
+  "ubergraph2asct": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "imc-3d-segmentation": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-3d-registration": [
+    { "name": "issuesOpen", "count": 9 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hubmap-data-portal": [
+    { "name": "issuesOpen", "count": 14 },
+    { "name": "issuesClosed", "count": 78 }
+  ],
+  "ccf-ui": [
+    { "name": "issuesOpen", "count": 100 },
+    { "name": "issuesClosed", "count": 293 }
+  ],
+  "ingest-ui": [
+    { "name": "issuesOpen", "count": 126 },
+    { "name": "issuesClosed", "count": 396 }
+  ],
+  "metadata-schema": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "commons": [
+    { "name": "issuesOpen", "count": 6 },
+    { "name": "issuesClosed", "count": 9 }
+  ],
+  "member-ui": [
+    { "name": "issuesOpen", "count": 9 },
+    { "name": "issuesClosed", "count": 27 }
+  ],
+  "uuid-api": [
+    { "name": "issuesOpen", "count": 14 },
+    { "name": "issuesClosed", "count": 19 }
+  ],
+  "gateway": [
+    { "name": "issuesOpen", "count": 14 },
+    { "name": "issuesClosed", "count": 35 }
+  ],
+  "ingest-pipeline": [
+    { "name": "issuesOpen", "count": 209 },
+    { "name": "issuesClosed", "count": 162 }
+  ],
+  "ingest-validation-tools": [
+    { "name": "issuesOpen", "count": 36 },
+    { "name": "issuesClosed", "count": 416 }
+  ],
+  "ontology-api": [
+    { "name": "issuesOpen", "count": 28 },
+    { "name": "issuesClosed", "count": 85 }
+  ],
+  "codex-pipeline": [
+    { "name": "issuesOpen", "count": 11 },
+    { "name": "issuesClosed", "count": 16 }
+  ],
+  "cwltool": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-asct-reporter": [
+    { "name": "issuesOpen", "count": 43 },
+    { "name": "issuesClosed", "count": 166 }
+  ],
+  "cross-dataset-diffexpr": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "SnapTools": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf": [
+    { "name": "issuesOpen", "count": 7 },
+    { "name": "issuesClosed", "count": 2 }
+  ],
+  "sc-atac-seq-pipeline": [
+    { "name": "issuesOpen", "count": 7 },
+    { "name": "issuesClosed", "count": 22 }
+  ],
+  "ccf-validation-tools": [
+    { "name": "issuesOpen", "count": 11 },
+    { "name": "issuesClosed", "count": 53 }
+  ],
+  "pipeline-release-mgmt": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 2 }
+  ],
+  "cross_modality_query": [
+    { "name": "issuesOpen", "count": 12 },
+    { "name": "issuesClosed", "count": 25 }
+  ],
+  "portal-docs": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 20 }
+  ],
+  "cross-dataset-codex": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hubmap-api-js-client": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "cross-dataset-common": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ingest-validation-tests": [
+    { "name": "issuesOpen", "count": 6 },
+    { "name": "issuesClosed", "count": 2 }
+  ],
+  "ingest-api": [
+    { "name": "issuesOpen", "count": 12 },
+    { "name": "issuesClosed", "count": 47 }
+  ],
+  "hubmap-cell-id-gen-py": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "fastq-utils": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "codex-integration-testing": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hubmap-api-py-client": [
+    { "name": "issuesOpen", "count": 13 },
+    { "name": "issuesClosed", "count": 22 }
+  ],
+  "manual-data-ingest": [
+    { "name": "issuesOpen", "count": 19 },
+    { "name": "issuesClosed", "count": 77 }
+  ],
+  "ome-tiff-pyramid": [
+    { "name": "issuesOpen", "count": 3 },
+    { "name": "issuesClosed", "count": 3 }
+  ],
+  "cross-dataset-atac": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "spatial-transcriptomics-pipeline": [
+    { "name": "issuesOpen", "count": 4 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "mibi-pipeline": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-releases": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "segmentations": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "antibody-api": [
+    { "name": "issuesOpen", "count": 15 },
+    { "name": "issuesClosed", "count": 35 }
+  ],
+  "software-docs": [
+    { "name": "issuesOpen", "count": 19 },
+    { "name": "issuesClosed", "count": 3 }
+  ],
+  "tableschema-to-template": [
+    { "name": "issuesOpen", "count": 2 },
+    { "name": "issuesClosed", "count": 11 }
+  ],
+  "create-vis-symlink-archive": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "asctb-azimuth-data-comparison": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 5 }
+  ],
+  "spatial2ccf": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-ontology": [
+    { "name": "issuesOpen", "count": 8 },
+    { "name": "issuesClosed", "count": 6 }
+  ],
+  "ccf-2d-reference-object-library": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "python-check-cfde-submission": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "bubble-treemaps": [
+    { "name": "issuesOpen", "count": 3 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "tissue-bar-graphs": [
+    { "name": "issuesOpen", "count": 6 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "azimuth-annotate": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "python-sdk": [
+    { "name": "issuesOpen", "count": 4 },
+    { "name": "issuesClosed", "count": 6 }
+  ],
+  "user_workspaces_server": [
+    { "name": "issuesOpen", "count": 10 },
+    { "name": "issuesClosed", "count": 34 }
+  ],
+  "entity-api": [
+    { "name": "issuesOpen", "count": 49 },
+    { "name": "issuesClosed", "count": 112 }
+  ],
+  "salmon-rnaseq": [
+    { "name": "issuesOpen", "count": 3 },
+    { "name": "issuesClosed", "count": 11 }
+  ],
+  "portal-ui": [
+    { "name": "issuesOpen", "count": 168 },
+    { "name": "issuesClosed", "count": 1168 }
+  ],
+  "neo4j-docker": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 3 }
+  ],
+  "search-api": [
+    { "name": "issuesOpen", "count": 47 },
+    { "name": "issuesClosed", "count": 133 }
+  ],
+  "sprm": [
+    { "name": "issuesOpen", "count": 4 },
+    { "name": "issuesClosed", "count": 8 }
+  ],
+  "portal-containers": [
+    { "name": "issuesOpen", "count": 20 },
+    { "name": "issuesClosed", "count": 8 }
+  ],
+  "airflow-dev": [
+    { "name": "issuesOpen", "count": 3 },
+    { "name": "issuesClosed", "count": 13 }
+  ],
+  "example-pipeline": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "ims-mxif-pipeline": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ASCTBCVIDataComparison": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "asctb-appscript": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hra-data-dashboard": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "resource-requests": [
+    { "name": "issuesOpen", "count": 5 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "cedar2ccf": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "BiomarkerProteinsXAntibodies": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-gtex-pilot": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "celldive-pipeline": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "hubmap-clt": [
+    { "name": "issuesOpen", "count": 6 },
+    { "name": "issuesClosed", "count": 8 }
+  ],
+  "BaSiC_Mod": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "vasculature-CCF-FTU-mapping": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "asct-b-generator": [
+    { "name": "issuesOpen", "count": 6 },
+    { "name": "issuesClosed", "count": 5 }
+  ],
+  "vccf-visualization-2022": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "vccf-visualization-release": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-body-ui": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hra-vccf": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "MATRICS-A": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "specimen2ccf": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hra-previews": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "ccf-grlc": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hra-azimuth-predictions": [
+    { "name": "issuesOpen", "count": 2 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "portal-visualization": [
+    { "name": "issuesOpen", "count": 11 },
+    { "name": "issuesClosed", "count": 9 }
+  ],
+  "py-hubmapbags": [
+    { "name": "issuesOpen", "count": 23 },
+    { "name": "issuesClosed", "count": 1 }
+  ],
+  "file-assets": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hubmap-translation": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "asctb-figures": [
+    { "name": "issuesOpen", "count": 2 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "codex-metadata-converters": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "spatial-api": [
+    { "name": "issuesOpen", "count": 6 },
+    { "name": "issuesClosed", "count": 6 }
+  ],
+  "ASCTBCellXGeneDataComparison": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "asctb-ftu-mapping": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "codex-common-acquisition-metadata": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hra-millitome": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "psc-nginx-docker": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "hra-millitome-generator": [
+    { "name": "issuesOpen", "count": 1 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "automated-pipeline-testing": [
+    { "name": "issuesOpen", "count": 3 },
+    { "name": "issuesClosed", "count": 0 }
+  ],
+  "aws-api-gateway": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 5 }
+  ],
+  "asctb2ccf": [
+    { "name": "issuesOpen", "count": 0 },
+    { "name": "issuesClosed", "count": 1 }
+  ]
+}

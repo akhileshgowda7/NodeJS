@@ -1,0 +1,177 @@
+{
+  "ccf-organ-vr-gallery": [
+    { "name": "Andreas Bueckle", "issuesClosed": 11 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 1 }
+  ],
+  "wos_2017": [],
+  "clinical_trials": [
+    { "name": "Michael Gallant", "issuesClosed": 8 },
+    { "name": "null", "issuesClosed": 1 }
+  ],
+  "medline": [],
+  "SDB-Generic-Parser": [],
+  "firebase-click-test-example": [],
+  "learning-trajectories": [
+    { "name": "Gagandeep Singh", "issuesClosed": 12 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 13 },
+    { "name": "Michael Ginda", "issuesClosed": 4 }
+  ],
+  "cns-pubvis": [
+    { "name": "Bruce W. Herr II", "issuesClosed": 3 },
+    { "name": "Michael Ginda", "issuesClosed": 1 }
+  ],
+  "pubmed": [],
+  "iotw.cns.iu.edu": [],
+  "opioid-trends": [],
+  "iucas-protected-site-template": [],
+  "assets": [],
+  "2020-vis-zoo-data": [],
+  "safer": [],
+  "edx-learnerpathway-modeling": [],
+  "sudt-medicaid": [],
+  "a2agc-dataset": [
+    { "name": "Adam Phillips", "issuesClosed": 15 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 15 }
+  ],
+  "x2s_converter": [],
+  "ivcr": [],
+  "md-icons": [],
+  "map4sci-data-test": [],
+  "ccf-cell-corridors": [],
+  "cns-iu.github.io": [],
+  "rui-tissue-registration": [],
+  "katy": [],
+  "ccf-research-ftu": [],
+  "myaura-user-study1": [],
+  "3d-cell-meshes-masks": [],
+  "vccf": [],
+  "optimizing-performance-in-VR-using-DVL-FW": [],
+  "nature-expert-recommendation": [],
+  "map4sci-data": [],
+  "scimaps": [
+    { "name": "Adam Phillips", "issuesClosed": 36 },
+    { "name": "Edward Lu", "issuesClosed": 4 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 7 },
+    { "name": "null", "issuesClosed": 1 },
+    { "name": "Medina Sydykanova", "issuesClosed": 2 }
+  ],
+  "edx-learningObjective-analytics": [],
+  "i2b2-sumtree": [],
+  "spoke-vis": [
+    { "name": "Adam Phillips", "issuesClosed": 14 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 2 }
+  ],
+  "navbo-then-and-now": [],
+  "pubmedviz": [],
+  "ccf-research-kaggle-2021": [{ "name": "Naveksha Sood", "issuesClosed": 1 }],
+  "ccf-research-gans": [{ "name": "akshace", "issuesClosed": 1 }],
+  "ccf-research-r2ui": [
+    { "name": "Yashvardhan Jain", "issuesClosed": 23 },
+    { "name": "null", "issuesClosed": 1 }
+  ],
+  "humanatlas.io": [],
+  "ccf-research-kaggle-2022": [],
+  "Envisioning-Kaggle": [],
+  "ccf-hca-rui-locations": [],
+  "annotation-web-tool-imjoy-plugins": [],
+  "4025C_VR": [],
+  "spoke_data_analysis": [],
+  "hra-cxg-supporting-information": [],
+  "ccf-organ-cube-ar": [],
+  "rui_vr_user_study": [],
+  "spoke-paper-supporting-information": [],
+  "HRA-supporting-information": [],
+  "cns-kpi-tracking": [],
+  "rui_vr_reflective_vr_project": [],
+  "cns-kpi-dev-tracking": [],
+  "CxG_paper_supporting_information": [],
+  "hubmap-2021-kaggle-blocks": [],
+  "luddy_vr_unity_project": [],
+  "ccf-research-segmentation": [{ "name": "Naveksha Sood", "issuesClosed": 2 }],
+  "Xmas_2": [],
+  "querdenken-vr-visualization": [],
+  "VATS-Visualizations": [],
+  "ERC-Client": [],
+  "edx-learnertrajectorynetpipeline": [
+    { "name": "Michael Ginda", "issuesClosed": 6 }
+  ],
+  "wvf-plugins": [],
+  "ccfws.cns.iu.edu": [],
+  "pdfkit-browserify": [],
+  "generic_parser": [],
+  "nwb": [],
+  "ngx-dino": [{ "name": "Bruce W. Herr II", "issuesClosed": 20 }],
+  "XDMoD-Client": [],
+  "CIShell": [],
+  "wvf": [],
+  "CNS-WVFP-HSD": [],
+  "ERC-Old": [],
+  "bbsrc": [{ "name": "Bruce W. Herr II", "issuesClosed": 35 }],
+  "boeing3": [{ "name": "Michael Ginda", "issuesClosed": 22 }],
+  "AICoEvolution": [],
+  "cjobs": [],
+  "vis-flash-cards": [],
+  "agc2-jobs": [],
+  "aisl": [
+    { "name": "Bruce W. Herr II", "issuesClosed": 22 },
+    { "name": "bryan kennedy", "issuesClosed": 1 },
+    { "name": "Lisel Record", "issuesClosed": 51 },
+    { "name": "Gagandeep Singh", "issuesClosed": 5 },
+    { "name": "Adam Simpson", "issuesClosed": 1 },
+    { "name": "Daniel Bolin", "issuesClosed": 1 }
+  ],
+  "myaura": [{ "name": "Bruce W. Herr II", "issuesClosed": 2 }],
+  "nrt": [],
+  "cns-styleguide": [],
+  "uspto": [],
+  "xdmod_OldForkFromBuffaloRepo": [],
+  "fashiontech": [{ "name": "Lisel Record", "issuesClosed": 17 }],
+  "vascular-team-map": [{ "name": "Bruce W. Herr II", "issuesClosed": 1 }],
+  "hsd": [
+    { "name": "Gagandeep Singh", "issuesClosed": 9 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 36 },
+    { "name": "Daniel Bolin", "issuesClosed": 1 }
+  ],
+  "ai-robot-iot-paper": [],
+  "us-atlas": [],
+  "agc1": [{ "name": "Michael Ginda", "issuesClosed": 1 }],
+  "blob-stream-browserify": [],
+  "center-management": [{ "name": "Lisel Record", "issuesClosed": 1 }],
+  "econ": [],
+  "famri": [{ "name": "Bruce W. Herr II", "issuesClosed": 3 }],
+  "macroscope-kiosk": [
+    { "name": "Lisel Record", "issuesClosed": 9 },
+    { "name": "Gagandeep Singh", "issuesClosed": 28 },
+    { "name": "Gurjaspal Singh Bedi", "issuesClosed": 3 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 28 },
+    { "name": "null", "issuesClosed": 1 }
+  ],
+  "phi": [
+    { "name": "Bruce W. Herr II", "issuesClosed": 14 },
+    { "name": "null", "issuesClosed": 1 },
+    { "name": "Michael Ginda", "issuesClosed": 1 }
+  ],
+  "map4sci": [
+    { "name": "Daniel Bolin", "issuesClosed": 10 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 6 },
+    { "name": "Adam Phillips", "issuesClosed": 1 }
+  ],
+  "make-a-vis": [
+    { "name": "Bruce W. Herr II", "issuesClosed": 86 },
+    { "name": "Daniel Bolin", "issuesClosed": 8 },
+    { "name": "Gagandeep Singh", "issuesClosed": 15 },
+    { "name": "Gurjaspal Singh Bedi", "issuesClosed": 6 },
+    { "name": "Fire", "issuesClosed": 3 },
+    { "name": "Michael Ginda", "issuesClosed": 2 },
+    { "name": "Santoshmurti Daptardar", "issuesClosed": 1 },
+    { "name": "Adam Phillips", "issuesClosed": 5 }
+  ],
+  "xmacroscope": [
+    { "name": "Bruce W. Herr II", "issuesClosed": 54 },
+    { "name": "bryan kennedy", "issuesClosed": 83 },
+    { "name": "Lisel Record", "issuesClosed": 34 },
+    { "name": "Gagandeep Singh", "issuesClosed": 25 },
+    { "name": "Manuel Alvarez - Zumárraga", "issuesClosed": 3 },
+    { "name": "Brandon W. Kipp", "issuesClosed": 2 }
+  ]
+}

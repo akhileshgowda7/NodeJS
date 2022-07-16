@@ -9,7 +9,11 @@
   "license": "ISC",
   "dependencies": {
     "json2md": "^1.12.0",
-    "node-fetch": "^3.2.5"
+    "node-fetch": "^3.2.5",
+    "octokit": "^1.8.1",
+    "vega": "^5.22.1",
+    "vega-embed": "^6.21.0",
+    "vega-lite": "^5.2.0"
   },
   "description": "",
   "type": "module"

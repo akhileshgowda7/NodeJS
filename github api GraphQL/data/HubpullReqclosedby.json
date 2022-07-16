@@ -1,0 +1,332 @@
+{
+  "hubmap-cell-id-gen-py": [],
+  "fastq-utils": [],
+  "create-vis-symlink-archive": [],
+  "ingest-validation-tests": [
+    { "name": "Marc Chametzky", "PullreqsClosed": 2 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 2 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 7 },
+    { "name": "Joel Welling", "PullreqsClosed": 3 }
+  ],
+  "mibi-pipeline": [],
+  "tableschema-to-template": [
+    { "name": "Chuck McCallum", "PullreqsClosed": 13 }
+  ],
+  "asctb-azimuth-data-comparison": [
+    { "name": "Vikrant Deshpande", "PullreqsClosed": 15 }
+  ],
+  "segmentations": [{ "name": "null", "PullreqsClosed": 1 }],
+  "codex-integration-testing": [],
+  "celldive-pipeline": [
+    { "name": "Matt Ruffalo", "PullreqsClosed": 1 },
+    { "name": "null", "PullreqsClosed": 2 },
+    { "name": "Joel Welling", "PullreqsClosed": 1 }
+  ],
+  "cross-dataset-common": [],
+  "resource-requests": [],
+  "asctb-ftu-mapping": [],
+  "ccf-gtex-pilot": [],
+  "spatial-transcriptomics-pipeline": [],
+  "BaSiC_Mod": [],
+  "cedar2ccf": [],
+  "ccf-ontology": [{ "name": "Anita Caron", "PullreqsClosed": 1 }],
+  "tissue-bar-graphs": [{ "name": "Amber Ramesh", "PullreqsClosed": 2 }],
+  "ccf-3d-reference-object-library": [],
+  "BiomarkerProteinsXAntibodies": [],
+  "vccf-visualization-2022": [],
+  "vasculature-CCF-FTU-mapping": [],
+  "aws-api-gateway": [],
+  "bubble-treemaps": [{ "name": "Amber Ramesh", "PullreqsClosed": 1 }],
+  "portal-docs": [
+    { "name": "chris briggs", "PullreqsClosed": 1 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 28 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 1 },
+    { "name": "null", "PullreqsClosed": 3 },
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 1 },
+    { "name": "Nils Gehlenborg", "PullreqsClosed": 1 }
+  ],
+  "hubmap-api-js-client": [
+    { "name": "John Conroy", "PullreqsClosed": 11 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 1 }
+  ],
+  "hra-azimuth-predictions": [],
+  "specimen2ccf": [],
+  "hra-data-dashboard": [],
+  "python-check-cfde-submission": [],
+  "azimuth-annotate": [{ "name": "Austin Hartman", "PullreqsClosed": 2 }],
+  "ASCTBCVIDataComparison": [],
+  "hubmap-translation": [{ "name": "Max Sibilla", "PullreqsClosed": 4 }],
+  "file-assets": [],
+  "user_workspaces_server": [
+    { "name": "dependabot", "PullreqsClosed": 3 },
+    { "name": "null", "PullreqsClosed": 14 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 1 }
+  ],
+  "ubergraph2asct": [],
+  "codex-common-acquisition-metadata": [
+    { "name": "Heath Patterson", "PullreqsClosed": 1 }
+  ],
+  "hubmap-ontology": [
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 2 },
+    { "name": "null", "PullreqsClosed": 8 }
+  ],
+  "py-hubmapbags-docs": [],
+  "hra-vccf": [],
+  "imc-3d-segmentation": [],
+  "hubmap-clt": [{ "name": "Derek Furst", "PullreqsClosed": 5 }],
+  "ASCTBCellXGeneDataComparison": [],
+  "psc-nginx-docker": [],
+  "ccf-body-ui": [],
+  "asctb-appscript": [],
+  "ccf-2d-reference-object-library": [{ "name": "null", "PullreqsClosed": 1 }],
+  "python-sdk": [
+    { "name": "Derek Furst", "PullreqsClosed": 4 },
+    { "name": "icaoberg", "PullreqsClosed": 1 }
+  ],
+  "hubmap-api-py-client": [
+    { "name": "Chuck McCallum", "PullreqsClosed": 30 },
+    { "name": "Sean Donahue", "PullreqsClosed": 9 },
+    { "name": "John Conroy", "PullreqsClosed": 1 }
+  ],
+  "ccf-rdf-writer": [],
+  "codex-metadata-converters": [],
+  "ccf-grlc": [],
+  "hra-millitome": [],
+  "asct-b-generator": [{ "name": "null", "PullreqsClosed": 2 }],
+  "antibody-api": [
+    { "name": "dependabot", "PullreqsClosed": 7 },
+    { "name": "Charles Kollar", "PullreqsClosed": 4 },
+    { "name": "Bill Shirey", "PullreqsClosed": 1 },
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 2 },
+    { "name": "Joaquín Pérez", "PullreqsClosed": 7 }
+  ],
+  "MATRICS-A": [],
+  "vccf-visualization-release": [],
+  "cross_modality_query": [
+    { "name": "Sean Donahue", "PullreqsClosed": 21 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 3 }
+  ],
+  "asctb-figures": [],
+  "software-docs": [
+    { "name": "Derek Furst", "PullreqsClosed": 17 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 1 },
+    { "name": "null", "PullreqsClosed": 12 },
+    { "name": "Bill Shirey", "PullreqsClosed": 3 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 4 }
+  ],
+  "asctb2ccf": [],
+  "spatial-api": [{ "name": "Zhou (Joe) Yuan", "PullreqsClosed": 2 }],
+  "automated-pipeline-testing": [],
+  "ccf-tissue-block-annotation": [],
+  "hra-previews": [
+    { "name": "null", "PullreqsClosed": 1 },
+    { "name": "Yingnan Ju", "PullreqsClosed": 1 }
+  ],
+  "hra-millitome-generator": [],
+  "py-hubmapbags": [
+    { "name": "icaoberg", "PullreqsClosed": 1 },
+    { "name": "Joel Welling", "PullreqsClosed": 1 }
+  ],
+  "hubmap-template": [{ "name": "Chuck McCallum", "PullreqsClosed": 1 }],
+  "pipeline-release-mgmt": [],
+  "cwltool": [{ "name": "dependabot", "PullreqsClosed": 21 }],
+  "cross-dataset-codex": [],
+  "airflow-dev": [
+    { "name": "Julian Uran", "PullreqsClosed": 1 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 7 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 4 }
+  ],
+  "sc-atac-seq-pipeline": [
+    { "name": "Walter Shands", "PullreqsClosed": 15 },
+    { "name": "Sean Donahue", "PullreqsClosed": 2 },
+    { "name": "Michael R. Crusoe", "PullreqsClosed": 1 }
+  ],
+  "ccf-3d-registration": [{ "name": "Bruce W. Herr II", "PullreqsClosed": 2 }],
+  "metadata-schema": [],
+  "ome-tiff-pyramid": [],
+  "portal-visualization": [
+    { "name": "Chuck McCallum", "PullreqsClosed": 34 },
+    { "name": "Ilan Gold", "PullreqsClosed": 4 }
+  ],
+  "neo4j-docker": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 2 },
+    { "name": "Bill Shirey", "PullreqsClosed": 1 }
+  ],
+  "codex-pipeline": [
+    { "name": "null", "PullreqsClosed": 2 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 1 },
+    { "name": "Joel Welling", "PullreqsClosed": 1 },
+    { "name": "Ted Zhang", "PullreqsClosed": 1 }
+  ],
+  "example-pipeline": [{ "name": "Chuck McCallum", "PullreqsClosed": 1 }],
+  "ontology-api": [
+    { "name": "Charles Kollar", "PullreqsClosed": 13 },
+    { "name": "Bill Shirey", "PullreqsClosed": 1 },
+    { "name": "Jonathan C. Silverstein", "PullreqsClosed": 2 },
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 3 },
+    { "name": "chris briggs", "PullreqsClosed": 1 },
+    { "name": "null", "PullreqsClosed": 6 }
+  ],
+  "spatial2ccf": [],
+  "cross-dataset-diffexpr": [],
+  "SnapTools": [],
+  "manual-data-ingest": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 3 },
+    { "name": "Derek Furst", "PullreqsClosed": 1 },
+    { "name": "Joel Welling", "PullreqsClosed": 2 },
+    { "name": "null", "PullreqsClosed": 1 }
+  ],
+  "cross-dataset-atac": [],
+  "member-ui": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 20 },
+    { "name": "dependabot", "PullreqsClosed": 7 },
+    { "name": "null", "PullreqsClosed": 1 },
+    { "name": "Desheng Li", "PullreqsClosed": 1 }
+  ],
+  "salmon-rnaseq": [
+    { "name": "Sean Donahue", "PullreqsClosed": 1 },
+    { "name": "Michael R. Crusoe", "PullreqsClosed": 1 }
+  ],
+  "ims-mxif-pipeline": [{ "name": "Matt Ruffalo", "PullreqsClosed": 1 }],
+  "sprm": [
+    { "name": "Joel Welling", "PullreqsClosed": 1 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 3 }
+  ],
+  "ccf": [
+    { "name": "null", "PullreqsClosed": 2 },
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 5 },
+    { "name": "Medina Sydykanova", "PullreqsClosed": 1 },
+    { "name": "HS", "PullreqsClosed": 2 },
+    { "name": "Vikrant Deshpande", "PullreqsClosed": 2 }
+  ],
+  "uuid-api": [
+    { "name": "Karl Burke", "PullreqsClosed": 7 },
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 38 },
+    { "name": "Max Sibilla", "PullreqsClosed": 10 },
+    { "name": "Bill Shirey", "PullreqsClosed": 8 },
+    { "name": "Joel Welling", "PullreqsClosed": 1 }
+  ],
+  "portal-containers": [
+    { "name": "dependabot", "PullreqsClosed": 20 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 12 },
+    { "name": "Mark Keller", "PullreqsClosed": 6 },
+    { "name": "Ilan Gold", "PullreqsClosed": 28 },
+    { "name": "Joel Welling", "PullreqsClosed": 1 },
+    { "name": "icaoberg", "PullreqsClosed": 4 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 4 }
+  ],
+  "commons": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 37 },
+    { "name": "Max Sibilla", "PullreqsClosed": 2 },
+    { "name": "Derek Furst", "PullreqsClosed": 1 },
+    { "name": "Bill Shirey", "PullreqsClosed": 15 },
+    { "name": "Joel Welling", "PullreqsClosed": 4 },
+    { "name": "null", "PullreqsClosed": 10 },
+    { "name": "Julian Uran", "PullreqsClosed": 2 }
+  ],
+  "ccf-validation-tools": [
+    { "name": "Anita Caron", "PullreqsClosed": 71 },
+    { "name": "null", "PullreqsClosed": 1 },
+    { "name": "David Osumi-Sutherland", "PullreqsClosed": 1 }
+  ],
+  "ingest-api": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 67 },
+    { "name": "Bill Shirey", "PullreqsClosed": 7 },
+    { "name": "Derek Furst", "PullreqsClosed": 18 },
+    { "name": "null", "PullreqsClosed": 3 },
+    { "name": "Michael Davis", "PullreqsClosed": 4 },
+    { "name": "Charles Kollar", "PullreqsClosed": 1 }
+  ],
+  "hubmap-data-portal": [
+    { "name": "dependabot", "PullreqsClosed": 4 },
+    { "name": "Sushma Akoju", "PullreqsClosed": 11 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 58 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 24 }
+  ],
+  "gateway": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 81 },
+    { "name": "Charles Kollar", "PullreqsClosed": 7 },
+    { "name": "Bill Shirey", "PullreqsClosed": 5 },
+    { "name": "Derek Furst", "PullreqsClosed": 7 }
+  ],
+  "entity-api": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 71 },
+    { "name": "Derek Furst", "PullreqsClosed": 22 },
+    { "name": "Bill Shirey", "PullreqsClosed": 5 },
+    { "name": "null", "PullreqsClosed": 2 }
+  ],
+  "search-api": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 49 },
+    { "name": "Derek Furst", "PullreqsClosed": 3 },
+    { "name": "Max Sibilla", "PullreqsClosed": 21 },
+    { "name": "icaoberg", "PullreqsClosed": 1 },
+    { "name": "Joel Welling", "PullreqsClosed": 13 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 11 },
+    { "name": "Charles Kollar", "PullreqsClosed": 1 },
+    { "name": "Bill Shirey", "PullreqsClosed": 1 }
+  ],
+  "ingest-pipeline": [
+    { "name": "Matt Ruffalo", "PullreqsClosed": 48 },
+    { "name": "Joel Welling", "PullreqsClosed": 33 },
+    { "name": "David Betancur Vallejo", "PullreqsClosed": 1 },
+    { "name": "dependabot", "PullreqsClosed": 2 },
+    { "name": "Austin Hartman", "PullreqsClosed": 2 },
+    { "name": "Marc Chametzky", "PullreqsClosed": 2 },
+    { "name": "Derek Furst", "PullreqsClosed": 1 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 2 },
+    { "name": "Mark Keller", "PullreqsClosed": 2 },
+    { "name": "null", "PullreqsClosed": 2 },
+    { "name": "Ilan Gold", "PullreqsClosed": 3 },
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 2 }
+  ],
+  "ccf-releases": [
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 6 },
+    { "name": "HS", "PullreqsClosed": 8 },
+    { "name": "null", "PullreqsClosed": 8 },
+    { "name": "Andreas Bueckle", "PullreqsClosed": 1 },
+    { "name": "Kirk Ebelhar", "PullreqsClosed": 3 }
+  ],
+  "portal-ui": [
+    { "name": "dependabot", "PullreqsClosed": 8 },
+    { "name": "Chuck McCallum", "PullreqsClosed": 49 },
+    { "name": "John Conroy", "PullreqsClosed": 40 },
+    { "name": "Ilan Gold", "PullreqsClosed": 2 },
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 1 }
+  ],
+  "ingest-ui": [
+    { "name": "Zhou (Joe) Yuan", "PullreqsClosed": 41 },
+    { "name": "Michael Davis", "PullreqsClosed": 14 },
+    { "name": "Bird", "PullreqsClosed": 34 },
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 3 },
+    { "name": "Bill Shirey", "PullreqsClosed": 3 },
+    { "name": "null", "PullreqsClosed": 5 }
+  ],
+  "ingest-validation-tools": [
+    { "name": "Chuck McCallum", "PullreqsClosed": 59 },
+    { "name": "Joel Welling", "PullreqsClosed": 7 },
+    { "name": "icaoberg", "PullreqsClosed": 12 },
+    { "name": "Matt Ruffalo", "PullreqsClosed": 1 },
+    { "name": "dependabot", "PullreqsClosed": 3 },
+    { "name": "chris briggs", "PullreqsClosed": 15 },
+    { "name": "James Webber", "PullreqsClosed": 1 },
+    { "name": "vacuous_planet", "PullreqsClosed": 1 },
+    { "name": "Heath Patterson", "PullreqsClosed": 1 }
+  ],
+  "ccf-asct-reporter": [
+    { "name": "dependabot", "PullreqsClosed": 81 },
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 3 },
+    { "name": "null", "PullreqsClosed": 13 },
+    { "name": "SwapnilP", "PullreqsClosed": 2 },
+    { "name": "Nikhil Mahadevaswamy", "PullreqsClosed": 1 }
+  ],
+  "ccf-ui": [
+    { "name": "dependabot", "PullreqsClosed": 58 },
+    { "name": "Edward Lu", "PullreqsClosed": 17 },
+    { "name": "Daniel Bolin", "PullreqsClosed": 6 },
+    { "name": "Bruce W. Herr II", "PullreqsClosed": 14 },
+    { "name": "null", "PullreqsClosed": 1 },
+    { "name": "github-actions", "PullreqsClosed": 1 },
+    { "name": "Andreas Bueckle", "PullreqsClosed": 2 },
+    { "name": "Josef Hardi", "PullreqsClosed": 1 }
+  ]
+}

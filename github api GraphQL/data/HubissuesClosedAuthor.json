@@ -1,0 +1,325 @@
+{
+  "hubmap-ontology": [
+    { "name": "null", "issuesClosed": 6 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 7 }
+  ],
+  "ingest-api": [
+    { "name": "Bill Shirey", "issuesClosed": 46 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 1 }
+  ],
+  "hubmap-api-js-client": [{ "name": "Chuck McCallum", "issuesClosed": 1 }],
+  "celldive-pipeline": [{ "name": "Matt Ruffalo", "issuesClosed": 1 }],
+  "create-vis-symlink-archive": [{ "name": "Matt Ruffalo", "issuesClosed": 1 }],
+  "codex-integration-testing": [],
+  "SnapTools": [],
+  "ims-mxif-pipeline": [],
+  "portal-docs": [
+    { "name": "Chuck McCallum", "issuesClosed": 8 },
+    { "name": "null", "issuesClosed": 5 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 2 },
+    { "name": "chris briggs", "issuesClosed": 4 },
+    { "name": "Sheila", "issuesClosed": 1 }
+  ],
+  "software-docs": [
+    { "name": "Bill Shirey", "issuesClosed": 2 },
+    { "name": "Chuck McCallum", "issuesClosed": 1 }
+  ],
+  "bubble-treemaps": [],
+  "ccf-2d-reference-object-library": [],
+  "ome-tiff-pyramid": [
+    { "name": "icaoberg", "issuesClosed": 2 },
+    { "name": "Heath Patterson", "issuesClosed": 1 }
+  ],
+  "hra-data-dashboard": [{ "name": "Bruce W. Herr II", "issuesClosed": 1 }],
+  "hubmap-cell-id-gen-py": [],
+  "python-sdk": [{ "name": "Bill Shirey", "issuesClosed": 6 }],
+  "cross-dataset-common": [],
+  "cedar2ccf": [],
+  "sprm": [
+    { "name": "Ted Zhang", "issuesClosed": 1 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 1 },
+    { "name": "Matt Ruffalo", "issuesClosed": 5 },
+    { "name": "Joel Welling", "issuesClosed": 1 }
+  ],
+  "segmentations": [{ "name": "Matt Ruffalo", "issuesClosed": 1 }],
+  "ccf-gtex-pilot": [],
+  "tableschema-to-template": [
+    { "name": "Chuck McCallum", "issuesClosed": 10 },
+    { "name": "Lilly Winfree", "issuesClosed": 1 }
+  ],
+  "BaSiC_Mod": [],
+  "commons": [
+    { "name": "null", "issuesClosed": 1 },
+    { "name": "Philip Blood", "issuesClosed": 1 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 2 },
+    { "name": "Bill Shirey", "issuesClosed": 5 }
+  ],
+  "ccf-rdf-writer": [],
+  "asctb-appscript": [],
+  "asctb-ftu-mapping": [],
+  "cross-dataset-codex": [],
+  "ccf-tissue-block-annotation": [],
+  "ontology-api": [
+    { "name": "Bill Shirey", "issuesClosed": 25 },
+    { "name": "null", "issuesClosed": 30 },
+    { "name": "Jonathan C. Silverstein", "issuesClosed": 6 },
+    { "name": "Charles Kollar", "issuesClosed": 23 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 1 }
+  ],
+  "sc-atac-seq-pipeline": [
+    { "name": "Matt Ruffalo", "issuesClosed": 14 },
+    { "name": "Walter Shands", "issuesClosed": 7 },
+    { "name": "Philip Blood", "issuesClosed": 1 }
+  ],
+  "spatial-transcriptomics-pipeline": [],
+  "uuid-api": [
+    { "name": "null", "issuesClosed": 1 },
+    { "name": "Bill Shirey", "issuesClosed": 15 },
+    { "name": "icaoberg", "issuesClosed": 2 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 1 }
+  ],
+  "ccf-ontology": [
+    { "name": "Josef Hardi", "issuesClosed": 4 },
+    { "name": "David Osumi-Sutherland", "issuesClosed": 2 }
+  ],
+  "neo4j-docker": [
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 2 },
+    { "name": "Bill Shirey", "issuesClosed": 1 }
+  ],
+  "cross_modality_query": [
+    { "name": "Matt Ruffalo", "issuesClosed": 8 },
+    { "name": "Sean Donahue", "issuesClosed": 10 },
+    { "name": "Chuck McCallum", "issuesClosed": 7 }
+  ],
+  "ASCTBCVIDataComparison": [],
+  "pipeline-release-mgmt": [{ "name": "Matt Ruffalo", "issuesClosed": 2 }],
+  "aws-api-gateway": [
+    { "name": "Bill Shirey", "issuesClosed": 2 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 3 }
+  ],
+  "asctb-azimuth-data-comparison": [
+    { "name": "Amber Ramesh", "issuesClosed": 2 },
+    { "name": "Vikrant Deshpande", "issuesClosed": 3 }
+  ],
+  "automated-pipeline-testing": [],
+  "airflow-dev": [
+    { "name": "Chuck McCallum", "issuesClosed": 4 },
+    { "name": "Philip Blood", "issuesClosed": 9 }
+  ],
+  "ingest-validation-tests": [
+    { "name": "Chuck McCallum", "issuesClosed": 1 },
+    { "name": "Matt Ruffalo", "issuesClosed": 1 }
+  ],
+  "cwltool": [],
+  "mibi-pipeline": [],
+  "spatial2ccf": [],
+  "ccf-3d-registration": [],
+  "asct-b-generator": [{ "name": "null", "issuesClosed": 5 }],
+  "portal-containers": [
+    { "name": "Chuck McCallum", "issuesClosed": 6 },
+    { "name": "Ilan Gold", "issuesClosed": 2 }
+  ],
+  "ccf-grlc": [],
+  "vccf-visualization-release": [],
+  "MATRICS-A": [],
+  "asctb2ccf": [{ "name": "Josef Hardi", "issuesClosed": 1 }],
+  "ccf-body-ui": [],
+  "specimen2ccf": [],
+  "vccf-visualization-2022": [],
+  "codex-pipeline": [
+    { "name": "Maria Keays", "issuesClosed": 8 },
+    { "name": "Matt Ruffalo", "issuesClosed": 7 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 1 }
+  ],
+  "hra-millitome": [],
+  "spatial-api": [
+    { "name": "Bill Shirey", "issuesClosed": 5 },
+    { "name": "Charles Kollar", "issuesClosed": 1 }
+  ],
+  "vasculature-CCF-FTU-mapping": [],
+  "ccf-3d-reference-object-library": [],
+  "cross-dataset-diffexpr": [{ "name": "Matt Ruffalo", "issuesClosed": 1 }],
+  "hubmap-template": [],
+  "py-hubmapbags": [{ "name": "icaoberg", "issuesClosed": 1 }],
+  "codex-common-acquisition-metadata": [],
+  "metadata-schema": [],
+  "imc-3d-segmentation": [],
+  "hra-vccf": [],
+  "psc-nginx-docker": [],
+  "tissue-bar-graphs": [{ "name": "Amber Ramesh", "issuesClosed": 1 }],
+  "ubergraph2asct": [],
+  "py-hubmapbags-docs": [],
+  "user_workspaces_server": [
+    { "name": "null", "issuesClosed": 21 },
+    { "name": "Chuck McCallum", "issuesClosed": 13 }
+  ],
+  "antibody-api": [
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 1 },
+    { "name": "Jesse Helfer", "issuesClosed": 1 },
+    { "name": "Sam", "issuesClosed": 1 },
+    { "name": "Joaquín Pérez", "issuesClosed": 3 },
+    { "name": "Bill Shirey", "issuesClosed": 17 },
+    { "name": "Charles Kollar", "issuesClosed": 12 }
+  ],
+  "salmon-rnaseq": [
+    { "name": "Matt Ruffalo", "issuesClosed": 10 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 1 }
+  ],
+  "fastq-utils": [{ "name": "Matt Ruffalo", "issuesClosed": 1 }],
+  "ccf": [
+    { "name": "Kirk Ebelhar", "issuesClosed": 1 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 1 }
+  ],
+  "ASCTBCellXGeneDataComparison": [],
+  "hubmap-data-portal": [
+    { "name": "Matt Ruffalo", "issuesClosed": 16 },
+    { "name": "Chuck McCallum", "issuesClosed": 35 },
+    { "name": "Sushma Akoju", "issuesClosed": 5 },
+    { "name": "Jonathan C. Silverstein", "issuesClosed": 3 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 8 },
+    { "name": "Philip Blood", "issuesClosed": 7 },
+    { "name": "Bill Shirey", "issuesClosed": 1 },
+    { "name": "Joel Welling", "issuesClosed": 3 }
+  ],
+  "hra-previews": [],
+  "file-assets": [],
+  "hra-millitome-generator": [],
+  "azimuth-annotate": [{ "name": "null", "issuesClosed": 1 }],
+  "asctb-figures": [],
+  "codex-metadata-converters": [],
+  "hubmap-translation": [],
+  "resource-requests": [],
+  "hra-azimuth-predictions": [],
+  "python-check-cfde-submission": [],
+  "member-ui": [
+    { "name": "Bill Shirey", "issuesClosed": 22 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 5 }
+  ],
+  "cross-dataset-atac": [],
+  "ccf-releases": [],
+  "gateway": [
+    { "name": "Bill Shirey", "issuesClosed": 15 },
+    { "name": "Chuck McCallum", "issuesClosed": 3 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 16 },
+    { "name": "Ilan Gold", "issuesClosed": 1 }
+  ],
+  "BiomarkerProteinsXAntibodies": [],
+  "example-pipeline": [{ "name": "Chuck McCallum", "issuesClosed": 1 }],
+  "portal-visualization": [{ "name": "Chuck McCallum", "issuesClosed": 9 }],
+  "hubmap-clt": [{ "name": "Bill Shirey", "issuesClosed": 8 }],
+  "hubmap-api-py-client": [{ "name": "Chuck McCallum", "issuesClosed": 22 }],
+  "ccf-validation-tools": [
+    { "name": "David Osumi-Sutherland", "issuesClosed": 46 },
+    { "name": "null", "issuesClosed": 1 },
+    { "name": "Anita Caron", "issuesClosed": 6 }
+  ],
+  "manual-data-ingest": [
+    { "name": "Bill Shirey", "issuesClosed": 56 },
+    { "name": "null", "issuesClosed": 12 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 1 },
+    { "name": "Joel Welling", "issuesClosed": 7 },
+    { "name": "Jesse Helfer", "issuesClosed": 1 }
+  ],
+  "entity-api": [
+    { "name": "Bill Shirey", "issuesClosed": 80 },
+    { "name": "Chuck McCallum", "issuesClosed": 16 },
+    { "name": "null", "issuesClosed": 7 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 5 },
+    { "name": "Derek Furst", "issuesClosed": 4 }
+  ],
+  "ccf-asct-reporter": [
+    { "name": "Hrishikesh Paul", "issuesClosed": 60 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 39 },
+    { "name": "Kasturi Nikharge", "issuesClosed": 1 },
+    { "name": "null", "issuesClosed": 53 },
+    { "name": "Kirk Ebelhar", "issuesClosed": 4 },
+    { "name": "Darshal Shetty", "issuesClosed": 3 },
+    { "name": "Mac Vogelsang", "issuesClosed": 2 },
+    { "name": "Nikhil Mahadevaswamy", "issuesClosed": 2 },
+    { "name": "David Osumi-Sutherland", "issuesClosed": 1 },
+    { "name": "Andreas Bueckle", "issuesClosed": 1 }
+  ],
+  "search-api": [
+    { "name": "Bill Shirey", "issuesClosed": 53 },
+    { "name": "Joel Welling", "issuesClosed": 1 },
+    { "name": "Chuck McCallum", "issuesClosed": 59 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 10 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 2 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 1 },
+    { "name": "Desheng Li", "issuesClosed": 3 },
+    { "name": "null", "issuesClosed": 1 },
+    { "name": "Charles Kollar", "issuesClosed": 1 },
+    { "name": "Michael Davis", "issuesClosed": 2 }
+  ],
+  "ingest-pipeline": [
+    { "name": "Joel Welling", "issuesClosed": 31 },
+    { "name": "Philip Blood", "issuesClosed": 34 },
+    { "name": "Bill Shirey", "issuesClosed": 14 },
+    { "name": "Chuck McCallum", "issuesClosed": 4 },
+    { "name": "Ilan Gold", "issuesClosed": 7 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 2 },
+    { "name": "null", "issuesClosed": 68 },
+    { "name": "chris briggs", "issuesClosed": 1 },
+    { "name": "Ted Zhang", "issuesClosed": 1 }
+  ],
+  "ingest-ui": [
+    { "name": "Bill Shirey", "issuesClosed": 296 },
+    { "name": "null", "issuesClosed": 30 },
+    { "name": "Chuck McCallum", "issuesClosed": 2 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 6 },
+    { "name": "Desheng Li", "issuesClosed": 4 },
+    { "name": "Philip Blood", "issuesClosed": 1 },
+    { "name": "Joel Welling", "issuesClosed": 1 },
+    { "name": "Jesse Helfer", "issuesClosed": 1 },
+    { "name": "Michael Davis", "issuesClosed": 23 },
+    { "name": "Bird", "issuesClosed": 30 },
+    { "name": "Andreas Bueckle", "issuesClosed": 1 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 1 }
+  ],
+  "ccf-ui": [
+    { "name": "Bruce W. Herr II", "issuesClosed": 215 },
+    { "name": "Gagandeep Singh", "issuesClosed": 2 },
+    { "name": "Adam Phillips", "issuesClosed": 25 },
+    { "name": "null", "issuesClosed": 5 },
+    { "name": "Ilan Gold", "issuesClosed": 1 },
+    { "name": "Chuck McCallum", "issuesClosed": 2 },
+    { "name": "Edward Lu", "issuesClosed": 4 },
+    { "name": "Andreas Bueckle", "issuesClosed": 27 },
+    { "name": "Hrishikesh Paul", "issuesClosed": 7 },
+    { "name": "Fire", "issuesClosed": 1 },
+    { "name": "Daniel Bolin", "issuesClosed": 2 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 2 }
+  ],
+  "ingest-validation-tools": [
+    { "name": "Chuck McCallum", "issuesClosed": 290 },
+    { "name": "Bill Shirey", "issuesClosed": 1 },
+    { "name": "chris briggs", "issuesClosed": 86 },
+    { "name": "Joel Welling", "issuesClosed": 4 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 5 },
+    { "name": "Philip Blood", "issuesClosed": 5 },
+    { "name": "null", "issuesClosed": 3 },
+    { "name": "icaoberg", "issuesClosed": 5 },
+    { "name": "Lukasz Migas", "issuesClosed": 1 },
+    { "name": "Heath Patterson", "issuesClosed": 13 },
+    { "name": "James Webber", "issuesClosed": 2 },
+    { "name": "Matt Ruffalo", "issuesClosed": 1 }
+  ],
+  "portal-ui": [
+    { "name": "Chuck McCallum", "issuesClosed": 687 },
+    { "name": "Matt Ruffalo", "issuesClosed": 9 },
+    { "name": "Bill Shirey", "issuesClosed": 4 },
+    { "name": "Nils Gehlenborg", "issuesClosed": 96 },
+    { "name": "chris briggs", "issuesClosed": 4 },
+    { "name": "Jennifer Marx", "issuesClosed": 1 },
+    { "name": "Zhou (Joe) Yuan", "issuesClosed": 4 },
+    { "name": "John Conroy", "issuesClosed": 128 },
+    { "name": "Ilan Gold", "issuesClosed": 41 },
+    { "name": "Tiffany Liaw", "issuesClosed": 96 },
+    { "name": "Bruce W. Herr II", "issuesClosed": 5 },
+    { "name": "Mark Keller", "issuesClosed": 4 },
+    { "name": "null", "issuesClosed": 84 },
+    { "name": "Jonathan C. Silverstein", "issuesClosed": 2 },
+    { "name": "Jesse Helfer", "issuesClosed": 1 },
+    { "name": "Joel Welling", "issuesClosed": 2 }
+  ]
+}
