@@ -130,49 +130,49 @@ vegaEmbed("#vis1", pullReqAuthor);
 
 // vegaEmbed("#vis6", pieChart);
 
-// const topicsData = {
-//   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-//   description:
-//     "Reposiories Filtered by Topics and showing results of no of Issues and pull requests",
-//   title:
-//     "Reposiories Filtered by Topics and showing results of no of Issues and pull requests",
-//   width: 500,
-//   height: 500,
-//   data: {
-//     values: topicData,
-//   },
-//   repeat: {
-//     layer: [
-//       "openIssue",
-//       "closedIssue",
-//       "openPullreq",
-//       "closedPullreq",
-//       "mergedPullreq",
-//     ],
-//   },
-//   spec: {
-//     mark: "bar",
-//     encoding: {
-//       y: {
-//         field: "name",
-//         type: "nominal",
-//         title: "Repositories",
-//       },
-//       x: {
-//         field: { repeat: "layer" },
-//         type: "quantitative",
-//         title: "value",
-//       },
-//       color: { datum: { repeat: "layer" }, title: "Gross" },
-//       yOffset: { datum: { repeat: "layer" } },
-//     },
-//   },
-//   config: {
-//     mark: { invalid: null },
-//   },
-// };
+const topicsData = {
+  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+  description:
+    "Reposiories Filtered by Topics and showing results of no of Issues and pull requests",
+  title:
+    "Reposiories Filtered by Topics and showing results of no of Issues and pull requests",
+  width: 500,
+  height: 500,
+  data: {
+    values: topicData,
+  },
+  repeat: {
+    layer: [
+      "openIssue",
+      "closedIssue",
+      "openPullreq",
+      "closedPullreq",
+      "mergedPullreq",
+    ],
+  },
+  spec: {
+    mark: "bar",
+    encoding: {
+      y: {
+        field: "name",
+        type: "nominal",
+        title: "Repositories",
+      },
+      x: {
+        field: { repeat: "layer" },
+        type: "quantitative",
+        title: "value",
+      },
+      color: { datum: { repeat: "layer" }, title: "Gross" },
+      yOffset: { datum: { repeat: "layer" } },
+    },
+  },
+  config: {
+    mark: { invalid: null },
+  },
+};
 
-// vegaEmbed("#vis7", topicsData);
+vegaEmbed("#vis7", topicsData);
 
 // const allRepositoryData = {
 //   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
