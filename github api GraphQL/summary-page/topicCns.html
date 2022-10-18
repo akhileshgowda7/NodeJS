@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./topicCns.css" />
+    <title>Visualization</title>
+    
+  </head>
+  <body>
+    <header>
+      <nav class="header-box">
+        <a class="cns-logo" href="../../../index.html">
+        </a>
+      </nav>
+    </header>
+    <div class="input-container">
+      <button id="display-btn"> Display Visualization for Common Repos Across Orgs</button>
+      <button id="Authors-Display"> Display Visualization for Authors Across Orgs</button>
+      <input type="button" id="Repository-view" onclick="location.href='../repository-page/cns.html';" value="Display Visualization By repository" />
+
+
+    </div>
+
+    <div class="main-container">
+      <div class="wrapper">
+        <div class="side-bar">
+       <h1 style="color: #4caf50"> Most Active</h1>
+       <ol class="ActiveList">
+       </ol>
+   
+  <h1 style="color:#e52a5a ;">Least Active</h1>
+       <ol class="InactiveList">
+
+        </div>
+      <div class="container">
+        <h1>Visualization</h1>
+        <br>
+        <div id="vis1"></div>
+        <br>
+        <div id="vis2"></div>
+        <br>
+        <div id="vis3"></div>
+        <br>
+        <div id="vis4"></div>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+    <script type="module" src = "readFiles.js"></script>
+    <script type="module" src="vegaVisCns.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+  </body>
+</html>
