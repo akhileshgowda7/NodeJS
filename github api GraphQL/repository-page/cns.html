@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cns.css" />
+    <title>Visualization</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header-box">
+        <a class="cns-logo" href="../../../index.html"> </a>
+      </nav>
+    </header>
+    <div class="input-container">
+      <form autocomplete="off">
+        <div class="autocomplete" style="width: 300px">
+          <input
+            id="myInput"
+            type="text"
+            name="myCountry"
+            placeholder="Enter the Repository Name"
+          />
+        </div>
+        <button id="submitButton">Submit</button>
+      </form>
+      <button id="display-btn"> Active Repos</button>
+      <button id="inactive-btn">Inactive Repos</button>
+    </div>
+
+    <div class="container-repos"></div>
+    <div class="inactive-repos-container"></div>
+
+    <article class="main-container">
+      <div class="repo-data-bar"></div>
+      <div class="container">
+        <h1>Repository Statisticts</h1>
+        <br />
+        <div id="vis1"></div>
+        <br />
+        <div id="vis2"></div>
+        <br />
+        <div id="vis3"></div>
+        <br />
+        <h1>Developer Statisticts</h1>
+        <br />
+        <div id="vis4"></div>
+        <br />
+        <div id="vis5"></div>
+        <br />
+        <div id="vis6"></div>
+        <br />
+        <div id="vis7"></div>
+      </div>
+    </article>
+    <script type="module" src="vegaVis.js"></script>
+    <script type="module" src="cns.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.2"></script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-box {
+  display: flex;
+  background-color: #24292f;
+  height: 100px;
+  text-decoration: solid;
+  align-items: center;
+  color: white;
+  padding-left: 100px;
+}
+.cns-logo {
+  display: block;
+  width: 360px;
+  height: 84px;
+  background-image: url("https://cns.iu.edu/images/global/cns_logo.png");
+  background-repeat: no-repeat;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.repo-data-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: 40px 150px;
+  height: 75px;
+  border: 1px solid black;
+}
+.repoDataStyle {
+  display: flex;
+  gap: 80px;
+  font-size: x-large;
+}
+.container {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 75px;
+  width: 75%;
+  margin: 40px 150px;
+  height: 100%;
+  text-align: center;
+  box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.52);
+  -webkit-box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 5px 5px 11px -2px rgba(0, 0, 0, 0.52);
+}
+article h1 {
+  margin-bottom: 20px;
+}
+article h2 {
+  margin-bottom: 20px;
+}
+li {
+  width: fit-content;
+  margin-bottom: 10px;
+}
+ul {
+  margin-left: 40px;
+}
+a {
+  text-decoration: none;
+}
+
+article a:visited {
+  color: blue;
+}
+
+article a:hover {
+  font-weight: bold;
+  text-decoration: solid;
+}
+
+article a:active {
+  color: blueviolet;
+  font-style: italic;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+}
+#submitButton {
+  width: 100px;
+  height: 40.5px;
+  background-color: #24292f;
+  color: whitesmoke;
+  border: none;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type="text"] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type="submit"] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+#display-btn {
+  height: 40.5px;
+  margin-top: auto;
+  background-color: #4caf50; 
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#inactive-btn {
+  height: 40.5px;
+  margin-top: auto;
+  background-color: #24292f; 
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 13px;
+}
+.container-repos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  
+  margin: 40px 150px;
+  height: 100%;
+}
+.inactive-repos-container {
+  display: none;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 40px 150px;
+  height: 100%;
+}
+
+h1:cns-active{
+  text-align: center;
+}
